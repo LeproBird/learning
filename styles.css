@@ -1,0 +1,113 @@
+span {
+	display: block;
+}
+
+.container {
+	margin: auto;
+	width: 1000px;
+	height: auto;
+}
+
+.header {
+	width:996px;
+	border: 2px solid grey;
+	background-color: silver;
+	height: 120px;
+}
+
+.img {
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	margin:10px 10px 15px 10px;
+	float: left;
+}
+
+.ep {
+	padding-top: 10px;
+	color:grey;
+	font-size: 22px;
+}
+
+.ui {
+	color: grey;
+	font-size: 12px;
+}
+
+.ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0px;
+	padding-top:0px;
+	background: grey;
+	height:50px;
+}
+
+.hor {
+	text-decoration: none;
+	color: white;
+	padding: 0px 10px;
+	display: block;
+	line-height: 48px;
+	border-left: 2px solid grey;
+	border-bottom: 2px solid grey;
+}
+
+.hor:hover {
+	background: white;
+	color: grey;
+}
+
+.menhor {
+	float: left;
+	margin-right: 0px;
+}
+
+.main {
+	margin-top: 20px;
+	padding: 20px 20px;
+	width: 250px;
+	height: 500px;
+	background-color: silver;
+	float: left;
+
+}
+
+.vert {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 14px
+	height: 30px;
+	background-color: grey;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 43px;
+
+}
+
+.vert:hover {
+	background: white;
+	color: grey;
+	text-decoration: underline;
+}
+.text {
+	color: grey;
+	width: 700px;
+	float: right;
+	height: 500px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	float: bottom;
+
+}
